@@ -16,7 +16,7 @@
         <activity android:name=".AbstractResearchPaper" />
         <activity android:name=".EventBanner.EventBannerActivity" />
         <activity android:name=".AnandCollege.AnandEngineeringCollege" />
-        <activity android:name=".ProgramSchedule" />
+        <activity android:name=".ArtGalary" />
         <activity android:name=".Message.MessageDetailActivity" />
         <activity android:name=".Message.MessageActivity" />
         <activity android:name=".MainActivity"/>

@@ -35,10 +35,26 @@ public class Tab2 extends Fragment {
          ListView mListViewFaculty;
          mListViewFaculty = view.findViewById(R.id.mListFacultyBoard);
 
-         final int[] facultyPhoto = {R.drawable.souvenir};
-         final String[] facultyName = {"name"};
-         final String[] facultyPost = {"Post"};
-         final String[] facultySouvenirDuty = {"Duty"};
+         final int[] facultyPhoto = {R.drawable.sanjeevsir,
+                 R.drawable.anoop_sengar,
+                 R.drawable.siddharth_verma,
+                 R.drawable.mirga_jain
+         };
+         final String[] facultyName = {"Mr. Sanjeev S. Thakur",
+                 "Mr. Anoop Sengar",
+                 "Dr. Siddharth Verma",
+                 "Ms. Mriga Jain"
+         };
+         final String[] facultyPost = {"Head of Department",
+                 "Chemical Engineer",
+                 "Assistant Professor",
+                 "Assistant Professor"
+         };
+         final String[] facultySouvenirDuty = {"Chief Editor",
+                 "Editor",
+                 "Editor",
+                 "Editor"
+         };
 
 
         MessageAdapter mAdapter = new MessageAdapter(getActivity().getBaseContext(), facultyName, facultyPhoto, facultyPost, facultySouvenirDuty);

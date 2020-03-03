@@ -8,16 +8,21 @@
     app:layout_constraintBottom_toTopOf="parent"
     tools:context=".MainActivity">
 
+    <com.company.souvenir2k20.customviews.TopBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:cardCornerRadius="25dp"
-        android:layout_margin="5dp">
+        android:layout_margin="10dp">
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tabLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:background="@android:color/white"
             app:tabTextColor="@android:color/black">
 
@@ -50,7 +55,9 @@
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         app:cardCornerRadius="25dp">
 
         <androidx.viewpager.widget.ViewPager

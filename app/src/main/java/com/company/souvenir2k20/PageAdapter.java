@@ -5,7 +5,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.company.souvenir2k20.Tab.Tab1;
+import com.company.souvenir2k20.Tab.Tab1Fragment;
 import com.company.souvenir2k20.Tab.Tab2;
 import com.company.souvenir2k20.Tab.Tab3;
 
@@ -22,7 +22,7 @@ public class PageAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         if (position == 0){
-            Tab1 tab1 = new Tab1();
+            Tab1Fragment tab1 = new Tab1Fragment();
             return tab1;
         }
         if (position == 1){

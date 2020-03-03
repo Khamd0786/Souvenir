@@ -11,6 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import com.bumptech.glide.Glide;
 import com.company.souvenir2k20.R;
 
 public class EventAdapter extends ArrayAdapter {
@@ -45,7 +46,8 @@ public class EventAdapter extends ArrayAdapter {
             mViewHolder = (ViewHolder) convertView.getTag();
         }
 
-        mViewHolder.ivEventList.setImageResource(userImage[position]);
+        Glide.with(context).load(userImage[position]).into(mViewHolder.ivEventList);
+//        mViewHolder.ivEventList.setImageResource(userImage[position]);
         mViewHolder.tvEventList.setText(names[position]);
         return convertView;
 
