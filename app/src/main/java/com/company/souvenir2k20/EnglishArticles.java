@@ -443,7 +443,7 @@ public class EnglishArticles extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_abstract_model_presentation);
+        setContentView(R.layout.activity_english_articles);
 
         mListModelPresentation = findViewById(R.id.mListModelPresentation);
         Poetry adapter = new Poetry(getApplicationContext(), userName, userImage, userPost,
