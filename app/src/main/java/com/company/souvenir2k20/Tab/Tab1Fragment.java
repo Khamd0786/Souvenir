@@ -11,8 +11,8 @@ import android.widget.ListView;
 
 import androidx.fragment.app.Fragment;
 
-import com.company.souvenir2k20.AbstractModelPresentation;
-import com.company.souvenir2k20.AbstractResearchPaper;
+import com.company.souvenir2k20.EnglishArticles;
+import com.company.souvenir2k20.PoetryPaper;
 import com.company.souvenir2k20.AnandCollege.AnandEngineeringCollege;
 import com.company.souvenir2k20.EventBanner.EventBannerActivity;
 import com.company.souvenir2k20.Message.MessageActivity;
@@ -44,8 +44,8 @@ public class Tab1Fragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_tab1, container, false);
 
         ListView mListView = view.findViewById(R.id.list);
-        final String[] contentName = { "Anand Engineering College", "Messages", "Art Galary", "Event Banner", "Abstract (Research Paper)",
-        "Abstract (Model Presentation)", "Research Paper", "Technical Articles", "Programme Committee"};
+        final String[] contentName = { "Anand Engineering College", "Messages", "Art Galary", "Event Banner", "Poetry",
+        "English Articles", "Research Paper", "Technical Articles", "Programme Committee"};
 //        final String[] countryDetail = {"indian is a very good country all religion has been followed in india "};
 //        final int[] countryFlags = {R.drawable.india, R.drawable.us, R.drawable.shrilanka, R.drawable.turkey, R.drawable.brazil };
 
@@ -77,11 +77,11 @@ public class Tab1Fragment extends Fragment {
                         startActivity(intent3);
                         break;
                     case 4:
-                        Intent intent4 = new Intent(getActivity().getBaseContext(), AbstractResearchPaper.class);
+                        Intent intent4 = new Intent(getActivity().getBaseContext(), PoetryPaper.class);
                         startActivity(intent4);
                         break;
                     case 5:
-                        Intent intent5 = new Intent(getActivity().getBaseContext(), AbstractModelPresentation.class);
+                        Intent intent5 = new Intent(getActivity().getBaseContext(), EnglishArticles.class);
                         startActivity(intent5);
                         break;
                     case 6:

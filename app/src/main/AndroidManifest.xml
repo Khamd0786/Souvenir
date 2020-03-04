@@ -12,8 +12,8 @@
         <activity android:name=".SplashScreenSouvenir"></activity>
         <activity android:name=".TechnicalArticle" />
         <activity android:name=".ResearchPaper" />
-        <activity android:name=".AbstractModelPresentation" />
-        <activity android:name=".AbstractResearchPaper" />
+        <activity android:name=".EnglishArticles" />
+        <activity android:name=".PoetryPaper" />
         <activity android:name=".EventBanner.EventBannerActivity" />
         <activity android:name=".AnandCollege.AnandEngineeringCollege" />
         <activity android:name=".ArtGalary" />

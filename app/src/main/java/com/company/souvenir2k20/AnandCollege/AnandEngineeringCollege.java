@@ -3,6 +3,7 @@ package com.company.souvenir2k20.AnandCollege;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -11,6 +12,7 @@ import com.company.souvenir2k20.R;
 public class AnandEngineeringCollege extends AppCompatActivity {
 
     TextView tvAnand;
+    ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,12 +20,19 @@ public class AnandEngineeringCollege extends AppCompatActivity {
         setContentView(R.layout.activity_anand_engineering_college);
 
         tvAnand = findViewById(R.id.tvAnand);
+        imageView = findViewById(R.id.imageViewAnandEngineering);
+
+        imageView.setImageResource(R.drawable.anand_engineering_college);
 
         tvAnand.setText(
-                "Anand Engineering College Technical Campus was established in September 1998. This college comes under the SGEI (Sharda Group of Educational Institutes), a group started in the year 1995, by P.K. Gupta and Y.K. Gupta, after the name of their mother Sharda Devi. The college is situated at the 18km milestone on the Agra-Delhi Highway (NH-2) spread across 30 acres at a scenic location over Keetham Lake and housed in its own building with 500,000 sq. ft. (50,000 m2) of covered area, and the first students graduated in 2002.\n" +
-                        " The college is establishing benchmarks in academic excellence and holistic grooming of students, to meet the career challenges in an increasingly globalized economic conditions – The educational trust earned a goodwill by delivering “Quality Education” in the field of Management, Engineering, Architecture and Pharmacy by adopting best practices and systems.\n" +
-                        "Every year Anand Engineering College Technical Campus celebrates its annual techno- cultural fest “CEREBRUM” as a sea of extravaganza to present the brightest and absolute brains of the year.\n" +
-                        "So in continuation of this tradition, this year i.e. 2K20, Anand College is organizing this event with the theme of “A BIG LEAP” \n"
+                "Anand Engineering College Technical Campus Founded in 1998. Over the last 20 years of its existence, the Institute has created a formidable reputation for itself. Anand fosters a culture of empowerment. it makes space for creativity and backs innovative and unconventional ideas.\n" +
+                        "\n" +
+                        "AEC has a dedicated Placement division, which operates throughout the year and invites leading brands from the corporate world to take part in the annual placement drive. 99% and above students are placed every year from computer science and other branches. Average and Highest salary offered to the AEC candidates are Rs. 3.4 Lakh per annum and Rs. 27 Lakh per annum respectively.\n" +
+                        "\n" +
+                        "Every year our college conduct 2 days annual fest cerebrum and they conducted so many \n" +
+                        "technical events. The college conducted many sports events at the state level. They conducted so many literature events for students. In college, there are so many events organized.\n" +
+                        "In college, every year, UP government provides a scholarship program for every student who is eligible for criteria. There is no need for an education loan.\n" +
+                        "Strong values, commitment, positive attitude, grasp of fundamentals are the hallmark of our students. They integrate quickly with employer’s set up & commit themselves whole heartedly for making a career with the companies coming for placement drives.  Our alumni are, therefore, working in leading companies across INDIA and ABROAD serving as goodwill ambassadors for their Alma-Mater ensuring more such opportunities for their juniors.\n"
         );
 
 

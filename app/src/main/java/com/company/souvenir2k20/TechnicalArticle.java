@@ -35,7 +35,7 @@ public class TechnicalArticle extends AppCompatActivity {
 
         mListTechnicalArticle = (ListView) findViewById(R.id.mListTechnicalArticle);
 
-        AbstractResearchPaperAdapter adapter = new AbstractResearchPaperAdapter(getApplicationContext(), userName, userImage, userPost,
+        Poetry adapter = new Poetry(getApplicationContext(), userName, userImage, userPost,
                 userAbstractHeading, userAbstract);
 
         mListTechnicalArticle.setAdapter(adapter);

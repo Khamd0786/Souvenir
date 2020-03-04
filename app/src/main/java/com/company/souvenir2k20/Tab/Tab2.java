@@ -38,22 +38,27 @@ public class Tab2 extends Fragment {
          final int[] facultyPhoto = {R.drawable.sanjeevsir,
                  R.drawable.anoop_sengar,
                  R.drawable.siddharth_verma,
-                 R.drawable.mirga_jain
+                 R.drawable.mirga_jain,
+                 R.drawable.sanjay_kulshrestha
          };
          final String[] facultyName = {"Mr. Sanjeev S. Thakur",
                  "Mr. Anoop Sengar",
                  "Dr. Siddharth Verma",
-                 "Ms. Mriga Jain"
+                 "Ms. Mriga Jain",
+                 "Dr. Sanjay Kulsrestha"
          };
          final String[] facultyPost = {"Head of Department",
-                 "Chemical Engineer",
-                 "Assistant Professor",
-                 "Assistant Professor"
+                 "Chemical Engineer, AEC",
+                 "Assistant Professor, AEC",
+                 "Assistant Professor, AEC",
+                 "Senior Executive Trainer, T and D Department, AEC"
          };
          final String[] facultySouvenirDuty = {"Chief Editor",
                  "Editor",
                  "Editor",
+                 "Editor",
                  "Editor"
+
          };
 
 
