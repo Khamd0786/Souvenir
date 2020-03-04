@@ -39,6 +39,9 @@ public class MessageActivity extends AppCompatActivity {
             "Mr. MANISH GUPTA",
             "Mr. Tumul Saxena",
             "Ms. Sushmita Kumari",
+            "Sudeep Pradhan",
+            "Alumni Message",
+            "Rohit Kumar Chand\n" + "Vikas Singh",
             "Mr. Sanjeev S. Thakur",
             "Dr. Sanjay Kulshrestha"
 
@@ -83,6 +86,9 @@ public class MessageActivity extends AppCompatActivity {
                     "Noida - 201309, Uttar Pradesh\n" +
                     "India\n" +
                     "Proud to be part of Samvardhana Motherson\n",
+            "Alumni",
+            "Alumni\n" + "B.Tech (ME-2019)",
+            "Organizing secretary",
             "Chief Editor",
 
             "Editor,\n" +
@@ -113,6 +119,9 @@ public class MessageActivity extends AppCompatActivity {
             "Souvenir is more than just a magazine where the potential, talents, achievements and visions of our college are reflected",
             "Anand Engineering college, a place where every year young minds are shaped into responsible and talented human beings",
             "Four years at Anand Engineering College has paved way for a remarkable journey ahead",
+            "Achievements-applauds,opportunities-thoughts, this is what I gained from ANAND ENGINEERING COLLEGE (SGI)",
+            "My college life has been a great journey for me",
+            "It’s an honor to be appointed as the organizing secretary of cerebrum 2020",
             "With great pleasure,on behalf of the Souvenir Committee, I present this year’s Souvenir, on the occasion of annual techno-cultural fest ‘Cerebrum-2020’, of Anand Engineering College Technical Campus (AECTC).",
             "“Take care to get what you like or you’ll be forced to like what you get.”"
 
@@ -241,6 +250,24 @@ public class MessageActivity extends AppCompatActivity {
                     " \n" +
                     "Best Regards\n",
 
+            "Achievements-applauds,opportunities-thoughts, this is what I gained from ANAND ENGINEERING COLLEGE( SGI). Aec gave me a platform that I will always cherish, somedays I won and some days I learned , Right from first year AEC always held my back, my life in AEC Was and will be best experience  I can ever get , endless hostel memories , late night canteen parties with hostel mates , will be holding an eternal moments \n" +
+                    "Magnificiant atmosphere along with some supportive faculty members this journey become worth remembering\n" +
+                    "AEC let us fall by our own but simultaneously made us climb on the ladders to success...\n",
+
+
+            "My college life has been a great journey for me. I met with some lovely batchmates, seniors and juniors over the span of four years and became lifelong friends. We share a bond of respect and love for each other. \n" +
+                    "We celebrate \"CEREBRUM\" annually. It brings us entertainment, joy and fun. I enjoyed being a part of the Decoration Team for all my graduation years.\n" +
+                    "I want to thank all my teachers, seniors and juniors for transforming me into a more mature and better human being and all the sweeping staff for keeping our college neat clean.\n" +
+                    "All these life experiences have left an everlasting impact on mind. \n",
+
+
+
+            "It’s an honor to be appointed as the organizing secretary of cerebrum 2020, the annual techno-Cultural fest of Anand Engineering College, Technical Campus. Even though we got a late start in our preparations for cerebrum, we both have had a privilege of working with the most dedicated and hard working individuals that our campus has to offer. They gave their 100% and with their combined efforts and high spirits we worked towards making this cerebrum a great success. Being an organizing secretary is a mountain needing diligence and constant hard work to live up to the responsibility of this major task, and we are burning the midnight oil to live up to the expectations of this position.\n" +
+                    "\n" +
+                    "The aim of the Organizing team this year is to make the cerebrum the biggest it can possibly be and we have put the pedal to the medal. Everyone associated with it has given their level best to make this a benevolent spectacular. I thank each and everyone who are working their fingers to the bone to make cerebrum 2020 an event transcending greatness.\n" +
+                    "I extend my heartfelt wishes to each and every student of AECTC and request them to participate in all events that they possibly can. To soak in the fun and excitement that is Cerebrum 2020! Lets enjoy Cerebrum 2020 to the max like there is no tomorrow.\n" +
+                    "Thank you. \n",
+
 
             "With great pleasure,on behalf of the Souvenir Committee, I present this year’s Souvenir, on the occasion of annual techno-cultural fest ‘Cerebrum-2020’, of Anand Engineering College Technical Campus (AECTC).\n" +
                     "The ‘Cerebrum’ is a national level annual techno-cultural fest of Anand Engineering College, which provides a forum to the students to exhibit their talents in different areas so that their ideas should be conceived, nurtured and given a physical shape. Keeping this in mind the 20th edition of souvenir is being released. The souvenir is like a mirror showing the images of animated testimony of memories, thoughts and creativity of every member associated with it.\n" +
@@ -291,7 +318,9 @@ public class MessageActivity extends AppCompatActivity {
             R.drawable.manish_gupta,
             R.drawable.tumul_saxena,
             R.drawable.sushmita_kumari,
-
+            R.drawable.sudeep_pradhan,
+            R.drawable.sameer_pippal,
+            R.drawable.organizing_team,
             R.drawable.sanjeevsir,
             R.drawable.sanjay_kulshrestha
 

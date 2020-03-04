@@ -36,7 +36,7 @@ public class Tab3 extends Fragment {
 
         final int[] studentVolunteerPhoto = {R.drawable.nikhil_gaurav,
                 R.drawable.jyoti_singh,
-
+                R.drawable.hammad_khan,
                 R.drawable.rishabh_raj,
                 R.drawable.prabhat_rajpoot,
                 R.drawable.souvenirlogo,
@@ -44,6 +44,9 @@ public class Tab3 extends Fragment {
                 R.drawable.muddassir_rafique,
                 R.drawable.kaushiki_khare,
                 R.drawable.vanshika_sandhooja,
+                R.drawable.nitika_garg,
+                R.drawable.arpit,
+                R.drawable.harshita,
                 R.drawable.pratiyush_kumar,
                 R.drawable.somya_sharma,
                 R.drawable.shazia_khan,
@@ -61,19 +64,17 @@ public class Tab3 extends Fragment {
                 R.drawable.aditi_rai,
                 R.drawable.akhilesh_gupta,
                 R.drawable.preeti_tiwari,
-
-
-
-
-
-
+                R.drawable.bhagirath_jha,
+                R.drawable.ashwani,
+                R.drawable.bhagirathfinal,
+                R.drawable.vikas_singh,
 
         };
 
 
         final String[] studentVolunteerName = {"Nikhil Gaurav",
                 "Jyoti Singh",
-
+                "Hammad Khan",
                 "Rishabh Raj",
                 "Prabhat Rajput",
                 "Sukrati P. Singh",
@@ -81,6 +82,9 @@ public class Tab3 extends Fragment {
                 "Mudassir Rafique",
                 "Kaushiki Khare",
                 "Vanshika Sandooja",
+                "Nitika Garg",
+                "Arpit Gupta",
+                "Harshita Varmani",
                 "Pratyush Kumar",
                 "Somya Sharma",
                 "Shazia khan",
@@ -98,6 +102,10 @@ public class Tab3 extends Fragment {
                 "Aditi Rai",
                 "Abishek Gupta",
                 "Preeti Tiwari",
+                "Vinayak Ranjan",
+                "Ashwani Pratap Singh",
+                "Bhagirath Jha",
+                "Vikash Singh",
 
 
 
@@ -108,13 +116,16 @@ public class Tab3 extends Fragment {
 
         final String[] studentVolunteerPost = {"Chemical (Final year)",
                 "ECE (Final year)",
-
+                "BBA (Second year)",
                 "CSE (First year)",
                 "BBA (Second year)",
                 "Civil (Second year)",
                 "Civil (Fourth year)",
                 "ME (Third year)",
                 "CSE (Third year)",
+                "BBA (Second year)",
+                "BBA (Second year)",
+                "BBA (Second year)",
                 "BBA (Second year)",
                 "ME (Third Year)",
                 "BT (Third year)",
@@ -133,6 +144,10 @@ public class Tab3 extends Fragment {
                 "BT (Second year)",
                 "CSE (Second year)",
                 "B.Pharm (Third year)",
+                "BioTech (First year)",
+                "CSE (Second year)",
+                "CSE (First year)",
+                "CSE (Second year)",
 
 
 
@@ -143,7 +158,7 @@ public class Tab3 extends Fragment {
 
         final String[] studentVolunteerSouvenirPost = {"Coordinator",
                 "Coordinator",
-
+                "Coordinater, Application Developer",
                 "Designer",
                 "Designer",
                 "Flavours, Technical/Non-Technical Articles",
@@ -151,6 +166,9 @@ public class Tab3 extends Fragment {
                 "Certificate committee, Technical/Non-Technical Articles",
                 "Compilation",
                 "Flavours",
+                "Flavours",
+                "Flavours",
+                "Technical/Non-Technical Articles",
                 "Compilation",
                 "Compilation",
                 "Messages Collection",
@@ -168,6 +186,10 @@ public class Tab3 extends Fragment {
                 "Photo Collection, Technical/Non-Technical Articles",
                 "Technical/Non-Technical Articles",
                 "Compilation",
+                "Designer",
+                "Designer",
+                "Designer",
+                "Designer",
 
 
 

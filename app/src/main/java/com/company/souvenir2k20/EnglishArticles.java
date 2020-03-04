@@ -12,6 +12,7 @@ public class EnglishArticles extends AppCompatActivity {
 
     int[] userImage = {
             R.drawable.strategies_rural_marketing,
+            R.drawable.the_big_leap,
             R.drawable.indian_education_system,
             R.drawable.the_third_wave_of_feminism,
             R.drawable.the_magic_of_stem_cells,
@@ -36,6 +37,7 @@ public class EnglishArticles extends AppCompatActivity {
 
     String[] userName ={
             "Dr. Ravi Kant Pathak",
+            "Pritesh Rajput",
             "Mudassir Rafique",
             "Achanshi Singh",
             "Aditi Rai",
@@ -68,6 +70,7 @@ public class EnglishArticles extends AppCompatActivity {
             "MBA, UGC-NET, Ph.D\n" +
                     "Head- MBA Department\n" +
                     "Anand Engineering College Technical Campus,Agra\n",
+            "B. TECH (Chem.)",
             "Mechanical 3rd Year",
             "BBA 2nd year",
             "BT 2nd year",
@@ -100,6 +103,7 @@ public class EnglishArticles extends AppCompatActivity {
     String[] userAbstractHeading = {
             "Strategies for Rural Marketing\n" +
                     "In India\n",
+            "The Big Leap",
             "INDIAN EDUCATION SYSTEM",
             "THE THIRD WAVE OF FEMINISM",
             "THE MAGIC OF STEM CELLS",
@@ -203,6 +207,14 @@ public class EnglishArticles extends AppCompatActivity {
                     "Many companies as we seen above including ITC PEPSI,TATA,Unilever  an innovative strategy has been adopted which is elaborative and extensive in rural markets so far. Critical factors in the apparent success of the ventures needed extensive knowledge of agriculture, the effort and measures which has been  made in order to retain many aspects of the existing production system, including retaining the integral importance of local partners, the companies are  commitment to\n" +
                     "transparency, and the respect and fairness with which both farmers and local partners are treated. All the companies while entering into the rural market of India turning every stone of business possibilities covering aspects of resource management in the field of marketing ,promotions, advertising, marketing research ,distribution channel, brand associations leads to ultimately develop the products according to needs and wants of the rural customers in India.\n"
             ,
+            "A growing movement seeks to reproduce the hunter-gatherer lifestyle: running barefoot, pondering polygamy, relying on a diet of meat. But even our ancestors never lived this way. And besides, modern humans have evolved.\n" +
+                    "With different ideas of leaping at different intervals of timelines, everything has grown and developed. With the help of Evolution; the adaptation of life forms to deal with living conditions. Whatever the universe was throwing, mankind acted in a confident way and accepted everything naturally. By now, almost everybody in the world knows about this fascinating ‘theory’ and all but the most fanatic creationists accept that this is how organisms gradually adapt to their environment. Organisms that are well suited to deal with the surroundings survive (and reproduce) while less well-adapted organisms disappear.  \n" +
+                    "Like organisms, processes, products, and services tend to improve gradually. Ineffective processes and products with an unpleasant user experience tend to be replaced by generations of ‘better’ processes and products. Mankind is better at facing the challenges that come in every stage. Every stage right from an infant to being an adult spent with much enthusiasm and confidence. We strive to accept whatever comes in our ways. Finding the lesson or purpose behind every challenge will help you embrace it instead of fighting it. Our souls have been following all the difficult things that we were not accustomed to. With our inner sparks, we tend to see the change that is coming on our way. \n" +
+                    "Competitors forcing each other to innovate are not unlike predators and prey forcing each other to improve. Faster antelopes lead to faster cheetahs (and vice versa) and as mice become more \n" +
+                    "\n" +
+                    "\n" +
+                    "resistant to poison, new generations of snakes will become even more poisonous. The arms race of nature leads to more and more impressive feats. Animals and plants get more advanced because only those that manage to survive all sorts of challenges pass on their genes to the next generation. \n" +
+                    "The world has never been richer, humans have never lived such long, productive and healthy lives, and we have brought technology to the point where our machines could soon help us solve many of our remaining problems. The world is constantly changing anywhere from advancements in technology to changes in the environment. Humans are also always changing mentally and physically. When the men in “The Things They Carry” get drafted into a war they are forced to face many changes in their lives. To cope with all of these changes many people shut them out and ignore them. Ignoring or not embracing change is one of the worst mistakes a person could make. We may have things better than ever – but we’ve never faced such world-changing challenges either. Getting to grips with these is the defining task of our times. It is the Big Leap that is being followed by the Power of Mankind.\n",
 
             "India is the youngest country in the world that means we have the highest number of youths as compared to the total population in the world and education is the most important phase of the youth. We are the fifth largest economy of the world but still, we are lacking in the world in terms of innovation and technology. Why are we behind those countries that are much smaller than us in terms of the economy? What are the reasons behind our failure? India is the same country where we had Taxshila and Nalanda University in the past where students from all over the world come here to study and our country give world leaders in the past but now our top universities including various Central Universities, IITs, NITs, and IIMs are not even in the top 500 Universities of the world. The main reason is the education system and the failure of our governments to provide assurance and facilities to our youths. The education environment of our schools and universities lacks enthusiasm and innovation. They are still following the same orthodox system for many decades that emphasize theoretical knowledge rather than practical knowledge. The curriculum of our education lacks co-curricular activities that help in improvising the overall personality of any student. Our students are becoming book worms which will increase their knowledge but they lack practical \n" +
                     "\n" +

@@ -45,7 +45,7 @@ public class Tab1Fragment extends Fragment {
 
         ListView mListView = view.findViewById(R.id.list);
         final String[] contentName = { "Anand Engineering College", "Messages", "Art Galary", "Event Banner", "Poetry",
-        "English Articles", "Research Paper", "Technical Articles", "Programme Committee"};
+        "Articles", "Research Paper"};
 //        final String[] countryDetail = {"indian is a very good country all religion has been followed in india "};
 //        final int[] countryFlags = {R.drawable.india, R.drawable.us, R.drawable.shrilanka, R.drawable.turkey, R.drawable.brazil };
 
@@ -87,10 +87,6 @@ public class Tab1Fragment extends Fragment {
                     case 6:
                         Intent intent6 = new Intent(getActivity().getBaseContext(), ResearchPaper.class);
                         startActivity(intent6);
-                        break;
-                    case 7:
-                        Intent intent7 = new Intent(getActivity().getBaseContext(), TechnicalArticle.class);
-                        startActivity(intent7);
                         break;
                 }
             }
