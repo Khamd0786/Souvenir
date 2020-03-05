@@ -11,19 +11,16 @@ import com.company.souvenir2k20.R;
 
 public class MessageDetailActivity extends AppCompatActivity {
 
-    ImageView ivMessageDetailUser;
-    TextView tvMessageDetailName, tvMessageDetailPost, tvMessageDetailHeading, tvMessageDetail;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_message_detail);
 
-        ivMessageDetailUser = findViewById(R.id.ivMesseageDetailUser);
-        tvMessageDetailName = findViewById(R.id.tvMessageDetailName);
-        tvMessageDetailPost = findViewById(R.id.tvMessageDetailPost);
-        tvMessageDetailHeading = findViewById(R.id.tvMessageDetailHeading);
-        tvMessageDetail = findViewById(R.id.tvMessageDetail);
+        ImageView ivMessageDetailUser = findViewById(R.id.ivMesseageDetailUser);
+        TextView tvMessageDetailName = findViewById(R.id.tvMessageDetailName);
+        TextView tvMessageDetailPost = findViewById(R.id.tvMessageDetailPost);
+        TextView tvMessageDetailHeading = findViewById(R.id.tvMessageDetailHeading);
+        TextView tvMessageDetail = findViewById(R.id.tvMessageDetail);
 
         Bundle bundle = getIntent().getExtras();
         if (bundle != null){

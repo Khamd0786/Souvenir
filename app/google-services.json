@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1066652749393",
+    "firebase_url": "https://souvenir-56199.firebaseio.com",
+    "project_id": "souvenir-56199",
+    "storage_bucket": "souvenir-56199.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066652749393:android:ea25469d00510e5f357270",
+        "android_client_info": {
+          "package_name": "com.company.souvenir2k20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066652749393-2ul935ackavp7erg7140k9c1pm1rl26j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi9pbaePCvoVBIQJ8JXhCAgDp0rfPzVOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066652749393-2ul935ackavp7erg7140k9c1pm1rl26j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

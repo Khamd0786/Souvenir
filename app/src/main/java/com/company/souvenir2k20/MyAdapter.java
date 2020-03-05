@@ -10,11 +10,13 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import java.util.Objects;
+
 public class MyAdapter extends ArrayAdapter<String> {
 
-    String[] names;
+    private final String[] names;
 //    int[] flags;
-    Context mContext;
+private final Context mContext;
     public MyAdapter(@NonNull Context context, String[] names) {
         super(context, R.layout.content_list);
         this.names = names;
@@ -33,9 +35,9 @@ public class MyAdapter extends ArrayAdapter<String> {
         ViewHolder mViewHolder = new ViewHolder();
         if (convertView == null) {
             LayoutInflater layoutInflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = layoutInflater.inflate(R.layout.content_list, parent, false);
+            convertView = Objects.requireNonNull(layoutInflater).inflate(R.layout.content_list, parent, false);
 //            mViewHolder.mFlag = (ImageView) convertView.findViewById(R.id.ivCountryFlag);
-            mViewHolder.mName = (TextView) convertView.findViewById(R.id.tvContent);
+            mViewHolder.mName = convertView.findViewById(R.id.tvContent);
             convertView.setTag(mViewHolder);
         }else {
             mViewHolder = (ViewHolder) convertView.getTag();

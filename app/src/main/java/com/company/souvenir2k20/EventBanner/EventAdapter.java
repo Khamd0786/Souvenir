@@ -14,10 +14,12 @@ import androidx.annotation.Nullable;
 import com.bumptech.glide.Glide;
 import com.company.souvenir2k20.R;
 
+import java.util.Objects;
+
 public class EventAdapter extends ArrayAdapter {
-    private String[] names;
-    private int[] userImage;
-    private Context context;
+    private final String[] names;
+    private final int[] userImage;
+    private final Context context;
 
     public EventAdapter (@NonNull Context context, String[] names, int[] userImage){
         super(context, R.layout.event_list);
@@ -38,9 +40,9 @@ public class EventAdapter extends ArrayAdapter {
         ViewHolder mViewHolder = new ViewHolder();
         if (convertView == null) {
             LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = layoutInflater.inflate(R.layout.event_list, parent, false);
-            mViewHolder.tvEventList = (TextView) convertView.findViewById(R.id.tvEventList);
-            mViewHolder.ivEventList = (ImageView) convertView.findViewById(R.id.ivEventList);
+            convertView = Objects.requireNonNull(layoutInflater).inflate(R.layout.event_list, parent, false);
+            mViewHolder.tvEventList = convertView.findViewById(R.id.tvEventList);
+            mViewHolder.ivEventList = convertView.findViewById(R.id.ivEventList);
             convertView.setTag(mViewHolder);
         }   else {
             mViewHolder = (ViewHolder) convertView.getTag();

@@ -6,25 +6,24 @@ import android.os.Bundle;
 import android.widget.ListView;
 
 public class TechnicalArticle extends AppCompatActivity {
-    ListView mListTechnicalArticle;
 
-    int[] userImage = {
-            R.drawable.anandengineeringcollege
+    private final int[] userImage = {
+            R.drawable.anand_engineering_college
     };
 
-    String[] userName ={
+    private final String[] userName ={
             "Name"
     };
 
-    String[] userPost = {
+    private final String[] userPost = {
             "post"
     };
 
-    String[] userAbstractHeading = {
+    private final String[] userAbstractHeading = {
             "heading"
     };
 
-    String[] userAbstract = {
+    private final String[] userAbstract = {
             "abstract"
     };
 
@@ -33,7 +32,7 @@ public class TechnicalArticle extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_technical_article);
 
-        mListTechnicalArticle = (ListView) findViewById(R.id.mListTechnicalArticle);
+        ListView mListTechnicalArticle = findViewById(R.id.mListTechnicalArticle);
 
         Poetry adapter = new Poetry(getApplicationContext(), userName, userImage, userPost,
                 userAbstractHeading, userAbstract);

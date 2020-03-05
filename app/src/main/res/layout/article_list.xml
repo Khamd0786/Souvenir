@@ -27,7 +27,8 @@
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_gravity="center_horizontal"
-                    app:srcCompat="@drawable/user" />
+                    app:srcCompat="@drawable/user"
+                    android:contentDescription="TODO" />
 
             </androidx.cardview.widget.CardView>
 

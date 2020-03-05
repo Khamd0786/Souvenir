@@ -7,9 +7,7 @@ import android.widget.ListView;
 
 public class PoetryPaper extends AppCompatActivity {
 
-    ListView mListAbResearchPaper;
-
-    int[] userImage = {
+    private final int[] userImage = {
             R.drawable.the_dreamers,
             R.drawable.the_blight,
             R.drawable.the_nature
@@ -17,27 +15,27 @@ public class PoetryPaper extends AppCompatActivity {
 
     };
 
-    String[] userName = {
+    private final String[] userName = {
             "Utkarsh Tripathi",
             "Utkarsh Tripathi",
             "Utkarsh Tripathi"
     };
 
-    String[] userPost = {
+    private final String[] userPost = {
             "Chemical Engineering(Fianl year)",
             "Chemical Engg.(4th yr)",
             "Chem Engg. 4th year"
 
     };
 
-    String[] userArticleHeading = {
+    private final String[] userArticleHeading = {
             "THE DREAMERS",
             "THE BLIGHT",
             "THE NATURE"
 
     };
 
-    String[] userArticle = {
+    private final String[] userArticle = {
 
             "The person who tries, may never fail\n" +
                     "The person who tries, are the person who fail\n" +
@@ -85,7 +83,7 @@ public class PoetryPaper extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.poetry_activity);
 
-        mListAbResearchPaper = (ListView) findViewById(R.id.mListAbResearchPaper);
+        ListView mListAbResearchPaper = findViewById(R.id.mListAbResearchPaper);
          Poetry adapter = new Poetry(getApplicationContext(), userName, userImage, userPost, userArticleHeading,
                  userArticle);
 

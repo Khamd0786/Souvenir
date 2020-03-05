@@ -9,18 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashScreenSouvenir"></activity>
-        <activity android:name=".TechnicalArticle" />
-        <activity android:name=".ResearchPaper" />
-        <activity android:name=".EnglishArticles" />
-        <activity android:name=".PoetryPaper" />
-        <activity android:name=".EventBanner.EventBannerActivity" />
-        <activity android:name=".AnandCollege.AnandEngineeringCollege" />
-        <activity android:name=".ArtGalary" />
-        <activity android:name=".Message.MessageDetailActivity" />
-        <activity android:name=".Message.MessageActivity" />
-        <activity android:name=".MainActivity"/>
-        <activity android:name=".SplashScreenAnand">
+        <activity android:name="com.company.souvenir2k20.SplashScreenSouvenir"></activity>
+        <activity android:name="com.company.souvenir2k20.TechnicalArticle" />
+        <activity android:name="com.company.souvenir2k20.ResearchPaper" />
+        <activity android:name="com.company.souvenir2k20.EnglishArticles" />
+        <activity android:name="com.company.souvenir2k20.PoetryPaper" />
+        <activity android:name="com.company.souvenir2k20.EventBanner.EventBannerActivity" />
+        <activity android:name="com.company.souvenir2k20.AnandCollege.AnandEngineeringCollege" />
+        <activity android:name="com.company.souvenir2k20.ArtGalary" />
+        <activity android:name="com.company.souvenir2k20.Message.MessageDetailActivity" />
+        <activity android:name="com.company.souvenir2k20.Message.MessageActivity" />
+        <activity android:name="com.company.souvenir2k20.MainActivity"/>
+        <activity android:name="com.company.souvenir2k20.SplashScreenAnand">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

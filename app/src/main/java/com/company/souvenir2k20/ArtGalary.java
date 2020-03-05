@@ -8,9 +8,8 @@ import android.widget.ListView;
 import com.company.souvenir2k20.EventBanner.EventAdapter;
 
 public class ArtGalary extends AppCompatActivity {
-    ListView mListArtGalary;
 
-    int[] artImage = {
+    private final int[] artImage = {
             R.drawable.aanchal_chaurasiya_five,
             R.drawable.aanchal_chaurasia,
             R.drawable.aanchal_chaurasiya_sec,
@@ -36,7 +35,7 @@ public class ArtGalary extends AppCompatActivity {
 
     };
 
-    String[] artName = {
+    private final String[] artName = {
             "Aanchal Chaurasia",
             "Aanchal Chaurasia",
             "Aanchal Chaurasia",
@@ -67,7 +66,7 @@ public class ArtGalary extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.art_galary);
 
-        mListArtGalary = findViewById(R.id.mListArtGalary);
+        ListView mListArtGalary = findViewById(R.id.mListArtGalary);
 
         EventAdapter adapter = new EventAdapter(this, artName, artImage);
         mListArtGalary.setAdapter(adapter);

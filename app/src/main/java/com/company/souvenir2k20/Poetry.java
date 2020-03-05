@@ -13,14 +13,16 @@ import androidx.annotation.Nullable;
 
 import com.bumptech.glide.Glide;
 
-public class Poetry extends ArrayAdapter {
+import java.util.Objects;
 
-    private String[] names;
-    private String[] heading;
-    private String[] post;
-    private String[] article;
-    private int[] userImage;
-    private Context mContext;
+class Poetry extends ArrayAdapter {
+
+    private final String[] names;
+    private final String[] heading;
+    private final String[] post;
+    private final String[] article;
+    private final int[] userImage;
+    private final Context mContext;
     public Poetry(@NonNull Context context, String[] names, int[] userImage, String[] post, String[] heading, String[] article) {
         super(context, R.layout.article_list);
         this.mContext = context;
@@ -43,7 +45,7 @@ public class Poetry extends ArrayAdapter {
 
         if (convertView == null) {
             LayoutInflater layoutInflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = layoutInflater.inflate(R.layout.article_list, parent, false);
+            convertView = Objects.requireNonNull(layoutInflater).inflate(R.layout.article_list, parent, false);
             mViewHolder.tvUserNameArticle = convertView.findViewById(R.id.tvUserNameArticle);
             mViewHolder.tvUserPostArticle = convertView.findViewById(R.id.tvUserPostArticle);
             mViewHolder.tvHeadingArticle = convertView.findViewById(R.id.tvHeadingArticle);

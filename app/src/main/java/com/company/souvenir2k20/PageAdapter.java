@@ -9,10 +9,11 @@ import com.company.souvenir2k20.Tab.Tab1Fragment;
 import com.company.souvenir2k20.Tab.Tab2;
 import com.company.souvenir2k20.Tab.Tab3;
 
-public class PageAdapter extends FragmentPagerAdapter {
+class PageAdapter extends FragmentPagerAdapter {
 
-    private  int numberOfTabs;
+    private final int numberOfTabs;
 
+    @SuppressWarnings("deprecation")
     public PageAdapter(@NonNull FragmentManager fm, int numberOfTabs) {
         super(fm);
         this.numberOfTabs = numberOfTabs;
@@ -22,15 +23,12 @@ public class PageAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         if (position == 0){
-            Tab1Fragment tab1 = new Tab1Fragment();
-            return tab1;
+            return new Tab1Fragment();
         }
         if (position == 1){
-            Tab2 tab2 = new Tab2();
-            return tab2;
+            return new Tab2();
         } else {
-            Tab3 tab3 = new Tab3();
-            return tab3;
+            return new Tab3();
         }
 //        switch (position){
 //            case 0:

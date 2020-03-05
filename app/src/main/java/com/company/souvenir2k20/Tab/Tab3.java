@@ -12,6 +12,8 @@ import androidx.fragment.app.Fragment;
 import com.company.souvenir2k20.Message.MessageAdapter;
 import com.company.souvenir2k20.R;
 
+import java.util.Objects;
+
 
 /**
  * A simple {@link Fragment} subclass.
@@ -199,7 +201,7 @@ public class Tab3 extends Fragment {
 
 
 
-        MessageAdapter myAdapter = new MessageAdapter(getActivity().getBaseContext(), studentVolunteerName, studentVolunteerPhoto, studentVolunteerPost, studentVolunteerSouvenirPost);
+        MessageAdapter myAdapter = new MessageAdapter(Objects.requireNonNull(getActivity()).getBaseContext(), studentVolunteerName, studentVolunteerPhoto, studentVolunteerPost, studentVolunteerSouvenirPost);
         mListView.setAdapter(myAdapter);
 
 

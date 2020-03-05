@@ -5,13 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
 
-import com.company.souvenir2k20.EventBanner.EventAdapter;
 import com.company.souvenir2k20.R;
 
 public class EventBannerActivity extends AppCompatActivity {
-    ListView mListEvent;
 
-    String[] names = {
+    private final String[] names = {
             "Cerebrum (Human Poster)",
             "Souvenir",
             "Souvenir CD",
@@ -41,7 +39,7 @@ public class EventBannerActivity extends AppCompatActivity {
 
 
     };
-    int[] userImage = {
+    private final int[] userImage = {
             R.drawable.cerebrum_human,
             R.drawable.souvenir,
             R.drawable.souvenir_cd,
@@ -76,7 +74,7 @@ public class EventBannerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_event_banner);
 
-        mListEvent = findViewById(R.id.mListEvent);
+        ListView mListEvent = findViewById(R.id.mListEvent);
 
         EventAdapter eventAdapter = new EventAdapter(getApplicationContext(), names, userImage);
         mListEvent.setAdapter(eventAdapter);

@@ -32,63 +32,72 @@
             android:layout_width="400dp"
             android:layout_height="550dp"
             android:layout_gravity="center_horizontal"
-            app:srcCompat="@android:drawable/btn_minus" />
+            app:srcCompat="@android:drawable/btn_minus"
+            android:contentDescription="TODO" />
 
         <ImageView
             android:id="@+id/ivReserchPaper2"
             android:layout_width="400dp"
             android:layout_height="550dp"
             android:layout_gravity="center_horizontal"
-            app:srcCompat="@android:drawable/btn_minus" />
+            app:srcCompat="@android:drawable/btn_minus"
+            android:contentDescription="TODO" />
 
         <ImageView
             android:id="@+id/ivReserchPaper3"
             android:layout_width="400dp"
             android:layout_height="550dp"
             android:layout_gravity="center_horizontal"
-            app:srcCompat="@android:drawable/btn_minus" />
+            app:srcCompat="@android:drawable/btn_minus"
+            android:contentDescription="TODO" />
 
         <ImageView
             android:id="@+id/ivReserchPaper4"
             android:layout_width="400dp"
             android:layout_height="550dp"
             android:layout_gravity="center_horizontal"
-            app:srcCompat="@android:drawable/btn_minus" />
+            app:srcCompat="@android:drawable/btn_minus"
+            android:contentDescription="TODO" />
 
         <ImageView
             android:id="@+id/ivReserchPaper5"
             android:layout_width="400dp"
             android:layout_height="550dp"
             android:layout_gravity="center_horizontal"
-            app:srcCompat="@android:drawable/btn_minus" />
+            app:srcCompat="@android:drawable/btn_minus"
+            android:contentDescription="TODO" />
 
         <ImageView
             android:id="@+id/ivReserchPaper6"
             android:layout_width="400dp"
             android:layout_height="550dp"
             android:layout_gravity="center_horizontal"
-            app:srcCompat="@android:drawable/btn_minus" />
+            app:srcCompat="@android:drawable/btn_minus"
+            android:contentDescription="TODO" />
 
         <ImageView
             android:id="@+id/ivReserchPaper7"
             android:layout_width="400dp"
             android:layout_height="550dp"
             android:layout_gravity="center_horizontal"
-            app:srcCompat="@android:drawable/btn_minus" />
+            app:srcCompat="@android:drawable/btn_minus"
+            android:contentDescription="TODO" />
 
         <ImageView
             android:id="@+id/ivReserchPaper8"
             android:layout_width="400dp"
             android:layout_height="550dp"
             android:layout_gravity="center_horizontal"
-            app:srcCompat="@android:drawable/btn_minus" />
+            app:srcCompat="@android:drawable/btn_minus"
+            android:contentDescription="TODO" />
 
         <ImageView
             android:id="@+id/ivReserchPaper9"
             android:layout_width="400dp"
             android:layout_height="550dp"
             android:layout_gravity="center_horizontal"
-            app:srcCompat="@android:drawable/btn_minus" />
+            app:srcCompat="@android:drawable/btn_minus"
+            android:contentDescription="TODO" />
 
 
         <ListView

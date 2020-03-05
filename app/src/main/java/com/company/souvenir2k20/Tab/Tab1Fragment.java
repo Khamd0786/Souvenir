@@ -20,7 +20,8 @@ import com.company.souvenir2k20.MyAdapter;
 import com.company.souvenir2k20.ArtGalary;
 import com.company.souvenir2k20.R;
 import com.company.souvenir2k20.ResearchPaper;
-import com.company.souvenir2k20.TechnicalArticle;
+
+import java.util.Objects;
 
 
 /**
@@ -44,14 +45,13 @@ public class Tab1Fragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_tab1, container, false);
 
         ListView mListView = view.findViewById(R.id.list);
-        final String[] contentName = { "Anand Engineering College", "Messages", "Art Galary", "Event Banner", "Poetry",
+        final String[] contentName = { "Anand Engineering College", "Messages", "Art Gallery", "Event Banner", "Poetry",
         "Articles", "Research Paper"};
 //        final String[] countryDetail = {"indian is a very good country all religion has been followed in india "};
 //        final int[] countryFlags = {R.drawable.india, R.drawable.us, R.drawable.shrilanka, R.drawable.turkey, R.drawable.brazil };
 
 //        mListView = view.findViewById(R.id.mListView);
-
-        MyAdapter myAdapter = new MyAdapter(getActivity().getBaseContext(), contentName);
+        MyAdapter myAdapter = new MyAdapter(Objects.requireNonNull(getActivity()).getBaseContext(), contentName);
         mListView.setAdapter(myAdapter);
 
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -59,33 +59,33 @@ public class Tab1Fragment extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch (position){
                     case 0:
-                        Intent intent2 = new Intent(getActivity().getBaseContext(), AnandEngineeringCollege.class);
+                        Intent intent2 = new Intent(Objects.requireNonNull(getActivity()).getBaseContext(), AnandEngineeringCollege.class);
                         startActivity(intent2);
                         break;
 
                     case 1:
-                        Intent intent = new Intent(getActivity().getBaseContext(), MessageActivity.class);
+                        Intent intent = new Intent(Objects.requireNonNull(getActivity()).getBaseContext(), MessageActivity.class);
                         startActivity(intent);
                         break;
 
                     case 2:
-                        Intent intent1 = new Intent(getActivity().getBaseContext(), ArtGalary.class);
+                        Intent intent1 = new Intent(Objects.requireNonNull(getActivity()).getBaseContext(), ArtGalary.class);
                         startActivity(intent1);
                         break;
                     case 3:
-                        Intent intent3 = new Intent(getActivity().getBaseContext(), EventBannerActivity.class);
+                        Intent intent3 = new Intent(Objects.requireNonNull(getActivity()).getBaseContext(), EventBannerActivity.class);
                         startActivity(intent3);
                         break;
                     case 4:
-                        Intent intent4 = new Intent(getActivity().getBaseContext(), PoetryPaper.class);
+                        Intent intent4 = new Intent(Objects.requireNonNull(getActivity()).getBaseContext(), PoetryPaper.class);
                         startActivity(intent4);
                         break;
                     case 5:
-                        Intent intent5 = new Intent(getActivity().getBaseContext(), EnglishArticles.class);
+                        Intent intent5 = new Intent(Objects.requireNonNull(getActivity()).getBaseContext(), EnglishArticles.class);
                         startActivity(intent5);
                         break;
                     case 6:
-                        Intent intent6 = new Intent(getActivity().getBaseContext(), ResearchPaper.class);
+                        Intent intent6 = new Intent(Objects.requireNonNull(getActivity()).getBaseContext(), ResearchPaper.class);
                         startActivity(intent6);
                         break;
                 }
@@ -98,3 +98,41 @@ public class Tab1Fragment extends Fragment {
     }
 
 }
+
+//sdhdfajkhfkdshfjasfkasjfsfkshafsaf
+//asdugfkjsdhfsafsgdfsahdfjdsfhsafsfasdfasfuas
+
+//sdhdfajkhfkdshfjasfkasjfsfkshafsaf
+//asdugfkjsdhfsafsgdfsahdfjdsfhsafsfasdfasfuas
+//sdhdfajkhfkdshfjasfkasjfsfkshafsaf
+//asdugfkjsdhfsafsgdfsahdfjdsfhsafsfasdfasfuas
+//sdhdfajkhfkdshfjasfkasjfsfkshafsaf
+//asdugfkjsdhfsafsgdfsahdfjdsfhsafsfasdfasfuas
+//sdhdfajkhfkdshfjasfkasjfsfkshafsaf
+//asdugfkjsdhfsafsgdfsahdfjdsfhsafsfasdfasfuas
+//sdhdfajkhfkdshfjasfkasjfsfkshafsaf
+//asdugfkjsdhfsafsgdfsahdfjdsfhsafsfasdfasfuas
+//sdhdfajkhfkdshfjasfkasjfsfkshafsaf
+//asdugfkjsdhfsafsgdfsahdfjdsfhsafsfasdfasfuas
+//sdhdfajkhfkdshfjasfkasjfsfkshafsaf
+//asdugfkjsdhfsafsgdfsahdfjdsfhsafsfasdfasfuas
+//sdhdfajkhfkdshfjasfkasjfsfkshafsaf
+//asdugfkjsdhfsafsgdfsahdfjdsfhsafsfasdfasfuas
+//sdhdfajkhfkdshfjasfkasjfsfkshafsaf
+//asdugfkjsdhfsafsgdfsahdfjdsfhsafsfasdfasfuas
+//sdhdfajkhfkdshfjasfkasjfsfkshafsaf
+//asdugfkjsdhfsafsgdfsahdfjdsfhsafsfasdfasfuas
+//sdhdfajkhfkdshfjasfkasjfsfkshafsaf
+//asdugfkjsdhfsafsgdfsahdfjdsfhsafsfasdfasfuas
+//sdhdfajkhfkdshfjasfkasjfsfkshafsaf
+//asdugfkjsdhfsafsgdfsahdfjdsfhsafsfasdfasfuas
+//sdhdfajkhfkdshfjasfkasjfsfkshafsaf
+//asdugfkjsdhfsafsgdfsahdfjdsfhsafsfasdfasfuas
+//sdhdfajkhfkdshfjasfkasjfsfkshafsaf
+//asdugfkjsdhfsafsgdfsahdfjdsfhsafsfasdfasfuas
+//sdhdfajkhfkdshfjasfkasjfsfkshafsaf
+//asdugfkjsdhfsafsgdfsahdfjdsfhsafsfasdfasfuas
+//sdhdfajkhfkdshfjasfkasjfsfkshafsaf
+//asdugfkjsdhfsafsgdfsahdfjdsfhsafsfasdfasfuas
+//sdhdfajkhfkdshfjasfkasjfsfkshafsaf
+//asdugfkjsdhfsafsgdfsahdfjdsfhsafsfasdfasfuas

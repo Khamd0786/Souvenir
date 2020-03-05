@@ -18,7 +18,8 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@android:drawable/ic_menu_gallery" />
+            app:srcCompat="@android:drawable/ic_menu_gallery"
+            android:contentDescription="TODO" />
 
     </androidx.cardview.widget.CardView>
 

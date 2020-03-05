@@ -7,10 +7,8 @@ import android.widget.ListView;
 
 public class EnglishArticles extends AppCompatActivity {
 
-    ListView mListModelPresentation;
 
-
-    int[] userImage = {
+    private final int[] userImage = {
             R.drawable.strategies_rural_marketing,
             R.drawable.the_big_leap,
             R.drawable.indian_education_system,
@@ -35,7 +33,7 @@ public class EnglishArticles extends AppCompatActivity {
 
     };
 
-    String[] userName ={
+    private final String[] userName ={
             "Dr. Ravi Kant Pathak",
             "Pritesh Rajput",
             "Mudassir Rafique",
@@ -66,7 +64,7 @@ public class EnglishArticles extends AppCompatActivity {
 
     };
 
-    String[] userPost = {
+    private final String[] userPost = {
             "MBA, UGC-NET, Ph.D\n" +
                     "Head- MBA Department\n" +
                     "Anand Engineering College Technical Campus,Agra\n",
@@ -100,7 +98,7 @@ public class EnglishArticles extends AppCompatActivity {
 
     };
 
-    String[] userAbstractHeading = {
+    private final String[] userAbstractHeading = {
             "Strategies for Rural Marketing\n" +
                     "In India\n",
             "The Big Leap",
@@ -131,7 +129,7 @@ public class EnglishArticles extends AppCompatActivity {
 
     };
 
-    String[] userAbstract = {
+    private final String[] userAbstract = {
             "For quite some time now, the lure of rural India has been the subject of animated discussion in corporate suites. And there is a good reason too. With urban markets getting saturated for several categories of consumer goods and with rising rural incomes, marketing executives are fanning out and discovering the strengths of the large rural markets as they try to enlarge their markets. Today, the idea has grown out of its infancy and dominates discussions in any corporate boardroom strategy session. Adi Godrej, chairman of the Godrej group that is in a range of businesses from real estate and personal care to agri-foods, has no hesitation proclaiming, It is a myth that rural consumers are not brand and quality conscious.\n" +
                     " A survey by the National Council for Applied Economic Research(NCAER), India's premier economic research entity, recently confirmed that rise in rural incomes is keeping pace with urban incomes. From 55 to 58 per cent of the average urban income in 1994-95, the average rural income has gone up to 63 to 64 per cent by 2001-02 and touched almost 66 per cent in 2004-05. The rural middle class is growing at 12 per cent against the 13 per cent growth of its \n" +
                     "\n" +
@@ -457,7 +455,7 @@ public class EnglishArticles extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_english_articles);
 
-        mListModelPresentation = findViewById(R.id.mListModelPresentation);
+        ListView mListModelPresentation = findViewById(R.id.mListModelPresentation);
         Poetry adapter = new Poetry(getApplicationContext(), userName, userImage, userPost,
                 userAbstractHeading, userAbstract);
         mListModelPresentation.setAdapter(adapter);

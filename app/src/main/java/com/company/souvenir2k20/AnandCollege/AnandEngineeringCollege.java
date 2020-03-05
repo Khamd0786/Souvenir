@@ -4,26 +4,25 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.RequestOptions;
 import com.company.souvenir2k20.R;
 
 public class AnandEngineeringCollege extends AppCompatActivity {
-
-    TextView tvAnand;
-    ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_anand_engineering_college);
 
-        tvAnand = findViewById(R.id.tvAnand);
-        imageView = findViewById(R.id.imageViewAnandEngineering);
+        TextView tvAnand = findViewById(R.id.tvAnand);
+        ImageView imageView = findViewById(R.id.imageViewAnandEngineering);
 
-        imageView.setImageResource(R.drawable.anand_engineering_college);
+//        imageView.setImageResource(R.drawable.anand_engineering_college);
 
+        Glide.with(imageView).load(R.drawable.anand_engineering_college).apply(RequestOptions.centerCropTransform().centerCrop()).into(imageView);
         tvAnand.setText(
                 "Anand Engineering College Technical Campus Founded in 1998. Over the last 20 years of its existence, the Institute has created a formidable reputation for itself. Anand fosters a culture of empowerment. it makes space for creativity and backs innovative and unconventional ideas.\n" +
                         "\n" +

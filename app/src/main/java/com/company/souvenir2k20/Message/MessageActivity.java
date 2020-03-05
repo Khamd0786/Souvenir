@@ -12,11 +12,8 @@ import com.company.souvenir2k20.R;
 
 public class MessageActivity extends AppCompatActivity {
 
-    ListView mListView;
 
-
-
-    String[] messageName = {
+    private final String[] messageName = {
             "Prof. Prem Kumar Kalra",
             "Mr. Arun Kumar Yadav",
             "Mr. P.K GUPTA",
@@ -49,7 +46,7 @@ public class MessageActivity extends AppCompatActivity {
 
     };
 
-    String[] messagePost = {
+    private final String[] messagePost = {
             "Chief Guest",
             "P.C.S City Magistrate, Agra",
             "Chairman-SGI",
@@ -96,13 +93,13 @@ public class MessageActivity extends AppCompatActivity {
 
     };
 
-    String[] messageHeading = {
+    private final String[] messageHeading = {
             "It is really a great pleasure",
             "I am pleased to know that the students of Anand Engineering College",
             "\"WINNING ISN'T EVERYTHING, PARTICIPATING IS",
             "It gives me immense pleasure to know that our Anand Engineering College of Agra",
             "'Cerebrum', the techno-cultural fest of the Anand campus ",
-            "Cerebrum 2K20, the Techno-Cultural Fest at AECTC is an integral part of all Anandians",
+            "MESSAGE FROM DIRECTOR’S DESK",
             "It is a matter of immense pleasure to conduct our Annual Techno Cultural - Fest“Cerebrum 2020",
             "It gives me immense pleasure to welcome all the dignitaries, friends & students of Anand college campus in CEREBRUM 2020",
             " It pleases me to extend my hearty greetings to the students",
@@ -128,7 +125,7 @@ public class MessageActivity extends AppCompatActivity {
 
     };
 
-    String[] messageDetail = {
+    private final String[] messageDetail = {
             "It is really a great pleasure to know that Anand Engineering College celebrates its Cultural and Technical Festival—CEREBRUM-2K20 on 6th and 7th March. It is now an acknowledged statement that Anand Engineering College Technical Campus has been striving hard to foster a culture of empowerment, creativity, innovation and unconventional ideas for the last 21 years in the field of Education. This year also the College is celebrating its function on 6th and 7th March 2020 with its commitment to bring out a Souvenir on this occasion. Any kind of commitment for the cause of education especially towards continuous improvement, innovation in learning life skills and developing the dynamic personality of young men and women deserves a big salute.  \n" +
                     "The participation of many eminent thinkers, scientists, social-scientists, educationists, researchers and students on this academic occasion would have a meaningful impact on the participants and would also be a significant contribution towards the cause of education.  \n" +
                     "I take this occasion to accolade the organizers and express my heartfelt good wishes for the success of the Festival. \n",
@@ -155,8 +152,8 @@ public class MessageActivity extends AppCompatActivity {
                     "The spin off effect is inculcation of a spirit of bonhomie, fellow feeling & camaraderie amongst students of different disciplines and better bonding between those from 1st year through the senior year to 4th year. Participants from other schools and colleges, their teachers & parents through digital & social media will also get a glimpse of the all -round capabilities of our boys & girls and while this results in improving the brand of the college, it as well creates many lasting memories and achievements, which students cherish in later life too. \n" +
                     "My best wishes to the students and faculty of Anand Engineering College Technical Campus for carrying on this wonderful tradition of celebrating \"Cerebrum\" showcasing the talents of the students. \n",
 
-            "Cerebrum 2K20, the Techno-Cultural Fest at AECTC is an integral part of all Anandians. Here, students display their hidden capabilities through participation in various event like, paper presentation, Drama, Singing, Dancing, etc. Basically this event is ‘Of the Students’ ‘For the Students’ and is ‘By the Students’, which inculcates the Time Management, Creativity Responsibility and Leadership qualities. This Cerebrum- 2K20 is on a very topical theme, “A Big Leap”, which is dedicated to the big leaps our country has taken during the last two years.\n" +
-                    "On the occasion of CEREBRUM 2K20, I welcome all the guests, participants from other prestigious Institutions and dignitaries for encouraging our students. I am sure, all the Anandians will cherish & enjoy the great moments of Cerebrum2K20.\n",
+            "In today’s world, education is the most important & powerful acquisition for those who want to have a successful future. Education not only gives us a platform to succeed, but also the knowledge of social conduct, strength, character and self-respect. Education can be gained not only by academics but also by participating in extracurricular activities, interactive learning and even through sports. AECTC is going to celebrate 21st Annual Techno-Cultural Fest, called CEREBRUM-2020 on 6th-7thMarch 2020. Therefore, let me encourageall my students to participate whole whole-heartedly in all the events of CERERUM2520. The Techno-Cultural Fest at AECTC is an integral part of all Anandians. Here, students display their hidden capabilities through participation in various event like, paper presentation, Drama, Singing, Dancing etc. Basically this event is ‘of the students’ ‘for the students’ and is ‘by the students’, which in-culcalates the Time Management, Creativity and Leadership qualities.\n" +
+                    "\tOn the occasion of 21stCerebrum2K20, I welcome all the guests, participants from other prestigious Institutions & dignitaries for encouraging our students. I am sure, all the Anandians will cherish & enjoy the memory of Cerebrum2K20.\n",
 
                     "It is a matter of immense pleasure to conduct our Annual Techno Cultural - Fest“Cerebrum 2020” at AEC, Agra on 6th and 7th March, 2020.\n" +
                     "This festival is over all development of the students by providing them the opportunities to bring out their hidden talents in executing and working together with their innovative ideas.\n" +
@@ -296,7 +293,7 @@ public class MessageActivity extends AppCompatActivity {
 
 
     };
-    int[] messageUserImage = {R.drawable.prof_prem_kumar_kalra,
+    private final int[] messageUserImage = {R.drawable.prof_prem_kumar_kalra,
             R.drawable.prof_arun_kumar_yadav,
             R.drawable.pkgupta,
             R.drawable.ykgupta,
@@ -336,7 +333,7 @@ public class MessageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_message);
 
 
-        mListView = findViewById(R.id.mMessageListView);
+        ListView mListView = findViewById(R.id.mMessageListView);
 
         MessageAdapter messageAdapter = new MessageAdapter(getApplicationContext(), messageName, messageUserImage, messagePost, messageHeading);
         mListView.setAdapter(messageAdapter);
